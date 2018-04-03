@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="infoex.cn.xbc.MainActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+    <CheckBox
+        android:id="@+id/checkbox_write"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="是否向NFC标签写入数据" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:text="请将NFC标签或贴纸靠近手机背面"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/read_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        />
+
+        <EditText
+            android:id="@+id/ed_write_t"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="设定当前卡片到期时间"
+            />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

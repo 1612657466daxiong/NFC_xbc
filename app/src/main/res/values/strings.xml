@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">证件管理系统</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="opticol">Opticol</string>
+    <string name="symbol">Symbol</string>
+    <string name="honyware">Honyware</string>
+    <string name="se4500">Se4500</string>
+    <string name="title_activity_main">Scanner</string>
+    <string name="set_scanner_manager">Set Continuous Mode</string>
+    <string name="scanner">Scan</string>
+    <string name="start">Start Scan</string>
+    <string name="close">Stop Scan</string>
+    <string name="scanner_on">Turn on scanner power</string>
+    <string name="scanner_off">Turn off scanner power</string>
+    <string name="scanner_keyboard_mode">Keyboard mode</string>
+    <string name="scanner_keyboard_output">Keyboard output</string>
+    <string name="scanner_keyboard_output_summary">Keyboard output scan results to focus the edit box</string>
+    <string name="scanner_beep">Sounds</string>
+    <string name="scanner_beep_summary">Play sound when the scan is successful</string>
+    <string name="scanner_vibrate">Vibrate</string>
+    <string name="scanner_vibrate_summary">Vibrate when the scan is successful</string>
+    <string name="scanner_enter">Additional enter key</string>
+    <string name="scanner_enter_summary">Additional enter key after the scan results</string>
+    <string name="scanner_lock">Scan key</string>
+    <string name="scanner_lock_on">Enable Scan key</string>
+    <string name="scanner_lock_off">Disable Scan key</string>
+    <string name="scanner_reset_def">Reset Scanner</string>
+    <string name="scanner_reset_def_summary">Reset the scanner device</string>
+    <string name="scanner_toast">Scanner reset finished!</string>
+    <string name="scanner_hint">At the barcode and press the scan button on the device for bar code</string>
+</resources>
